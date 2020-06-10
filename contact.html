@@ -56,46 +56,41 @@
         </div>
     </nav>
 
-    <div class="container my-2">
+     <div class="container my-2">
         <h2>Contact us</h2>
-        <form style="width: fit-content;">
+        <form action="form.php" method="post" style="width: fit-content;">
             <div class="form-group">
-
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Name</label>
-                    <input type="text" class="form-control" id="te"> <br>
-    
+                    <label for="name">Name</label>
+                    <input type="text" name="name" class="form-control" id="name1" /> <br />
                 </div>
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                    else.</small>
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" name="email" id="email1" aria-describedby="emailHelp" />
+                
             </div>
-          
-            <div class="form-group">
-                <label for="exampleInputPassword1">Type of Program</label>
-                <input type="text" class="form-control" id="te"> <br>
 
+            <div class="form-group">
+                <label for="type">Type of Program</label>
+                <input type="text" class="form-control" name="type" id="type1" /> <br />
             </div>
             <div class="form-group">
-                <label for="exampleInputPassword1">Check-in date</label>
-                <input type="date" class="form-control" id="te"> <br>
-
+                <label for="checkin">Check-in date</label>
+                <input type="date" class="form-control" name="checkin" id="checkin1" /> <br />
             </div>
             <div class="form-group">
-                <label for="exampleInputPassword1">Check-out date</label>
-                <input type="date" class="form-control" id="te"> <br>
-
+                <label for="checkout">Check-out date</label>
+                <input type="date" class="form-control" name="checkout" id="checkout1" /> <br />
             </div>
             <div class="form-group">
-                <label for="exampleInputPassword1">Pax</label>
-                <input type="text" class="form-control" id="te"> <br>
-
+                <label for="pax">Pax</label>
+                <input type="text" class="form-control" name="pax" id="pax1" /> <br />
             </div>
 
             <button type="submit" class="btn btn-success">Submit</button>
         </form>
     </div>
+
+    
     <footer class="container" style="background-color: #343A40; color: whitesmoke; text-align: center;">
         <p>Build by Milind<a href="#/">MM</a></p>
         <p>
